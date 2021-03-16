@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!--
+        First step
+    - User inputs date (end-date)
+    - User inputs events name
+    - Program counts how many days there is left until the entered date (from
+    today (start date) until end date) and prints it with the event name on the
+    screen 
+
+        2nd Step 
+    - The program counts how many business days there is left until the entered
+date (from today (start date) until the end date and skipping Saturdays and
+Sundays).
+- Print the amount of the days also to the screen. 
+
+
+Third step
+- User can select also start time.
+- The program counts how many days there is left until the entered date
+(from today (start date) until end date)
+- Print counted days and counted business days until the event.
+
+Fourth step
+- Make your app beautiful! (backgrounds, fonts, nice inputs and button)
+- Add real-time counter (days, hours, minutes, seconds) to the event.
+- Print count down to the screen.
+- Upload your solution to a server (github page, school server etc) and post
+the link to the solution in Itslearning.
+
+    -->
+
+<body>
+
+    <h1> Days left counter </h1>
+    <form>
+
+        <div>
+            <label for="startDate"> Select starting date</label>
+            <input type="date" id="startDate">
+        </div>
+
+        <div>
+            <label for="endDate"> Select ending date</label>
+            <input type="Date" id="endDate">
+        </div>
+
+        <div>
+            <label for="eventName"> Enter the name event</label>
+            <input type="text" id="eventName">
+        </div>
+
+        <input type="submit" value="Check the time counter ">
+
+    </form>
+
+    <p id="output"></p>
+    <p id="clock"></p>
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
