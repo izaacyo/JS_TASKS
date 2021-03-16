@@ -1,0 +1,23 @@
+form {
+  display: block;
+}
+
+
+body {
+  background-color: rgba(82, 82, 182, 0.507);
+}
+
+h2 { 
+  text-align:center;
+  padding:1rem;
+}
+
+form {
+text-align: center;
+padding: 1rem;}
+
+#submit, 
+#AddCar,
+#reset { 
+  margin: 10px;
+}

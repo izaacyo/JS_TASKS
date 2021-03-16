@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <ol>
+        <li>Ask from user licence plate, car maker, car model, price and color. </li>
+        <li>Get the user input and create a new car object based on those properties </li>
+        <li>Make array of added cars and show console table with arrayAdd </li>
+        <li> Create a function that allows the user to search for a specific car based on a license plate.
+        </li>
+        <li>When the licence plate is found, show on screen this car mark and model.
+        </li>
+        <li> Create a method discount() for the car-object that returns a discounted price of the vehicle. The
+            discounted price depends on the price of the car.
+            If the price is over 20 000, discount is 25%.
+            If it is under 5000, it is 10%.
+            Otherwise the discount is 15%.</li>
+    </ol>
+    <h2>Insert car details</h2>
+
+    <form id="inputData">
+        <div>
+            <label for="licence">Enter your licence plate </label>
+            <input type="text" id="licencePlate">
+
+        </div>
+
+        <div>
+            <label for="maker">Enter your car maker </label>
+            <input type="text" id="brand">
+
+        </div>
+        <div>
+            <label for="model">Enter your car model </label>
+            <input type="text" id="model">
+
+        </div>
+        <div>
+            <label for="price">Enter the price </label>
+            <input type="number" id="price">
+
+        </div>
+        <div>
+            <label for="color">Enter car's color </label>
+            <input type="text" id="color">
+
+        </div>
+
+        <input type="submit" id="AddCar" value="Add car">
+        <input type="reset" id="reset" />
+    </form>
+
+    <h2> Insert licence plate number to find a car</h2>
+    <form id="searchData">
+        <div>
+            <label for="licence"> Licence Plate Number</label>
+            <input type="number" id="searchLicence">
+        </div>
+        <input type="submit" id="submit" value="Search">
+
+    </form>
+    <p>
+    </p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
