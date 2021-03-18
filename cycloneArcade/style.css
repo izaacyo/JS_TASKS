@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rock Salt", cursive;
+
+  background: url("https://source.unsplash.com/U3Axabwm_l4/1600x900");
+  color: white;
+}
+
+h1 {
+  padding: 5px;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(236, 236, 236);
+}
+
+h2 {
+  position: relative;
+  left: 100px;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+#game {
+  text-align: center;
+  position: relative;
+  left: 50rem;
+  top: 8rem;
+  height: 80px;
+  width: 400px;
+}
+
+.settings {
+  position: relative;
+  top: 24rem;
+  display: inline-block;
+}
+
+#bulbs {
+  top: 1px;
+  margin: 0 auto;
+  right: 15px;
+  position: relative;
+}
+
+.bulb {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.bulb.chosen {
+  background-color: rgb(255, 4, 4);
+}
+
+.bulb.active {
+  border: 5px solid rgb(2, 231, 33);
+}
+
+.input {
+  display: inline-block;
+}
+
+.input label {
+  display: flex;
+  justify-content: center;
+}
+
+#bulbAmount {
+  width: 50%;
+}
+
+#btns {
+  position: relative;
+  top: 35px;
+}
+
+#result {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.endgame {
+  background-color: rgba(235, 88, 88, 0.63);
+  width: 50%;
+  height: 20%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1;
+  border-radius: 7%;
+}
+
+.endgame button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  outline: none;
+}
+
+#gameover {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+ol,
+ul {
+  position: relative;
+  left: 3rem;
+  font-size: large;
+}
