@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: linear-gradient(to bottom, #1e8d1a, #71ca69f3);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  font-family: "Gentium Book Basic", serif;
+  cursor: url(bow2-removebg-preview\ \(1\).png), auto; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 3.5rem;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.gamearea {
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+  cursor: url(bow2-removebg-preview\ \(1\).png), auto;
+
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background: white;
+  border-radius: 60%;
+  display: inline;
+  margin: 30px 30px;
+  cursor: url(bow2-removebg-preview\ \(1\).png), auto;
+}
+
+.circle:hover {
+  border: 2px solid #333;
+}
+
+.active {
+  background-image: url("target.png");
+  background-color: white;
+  background-size: 115%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#result {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.endgame {
+  background-color: rgba(133, 209, 133, 0.781);
+  border-radius: 20px;
+  width: 90vw;
+  height: 50vh;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 2%;
+}
+
+.endgame button {
+  
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  outline: none;
+}
+
+#gameover {
+  font-size: 50px;
+  color: rgb(253, 247, 247);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: relative
+}
+
+p { 
+  font-size: 40px;
+
+}
+
+#close,
+#start,
+#stop {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 70px;
+  cursor: url(bow2-removebg-preview\ \(1\).png), auto;
+}
+
+
+section{
+  background-color: rgba(255, 255, 255, 0.973);
+  background-image: url("https://source.unsplash.com/nTRDnDdDYk8/1600x900") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: relative
+}
+
+
+img{ 
+  width: 30px;
+  display: block;
+}
+
