@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cyclone Arcade Game</title>
+    <link rel="shortcut icon" href="#">
+
+</head>
+
+<body>
+
+    <h1>Cyclone Arcade Game</h1>
+    <div class="container">
+        <section id="game">
+            <div class="settings">
+                <div class="input">
+                    <label for="speed">Choose speed</label>
+                    <input type="range" id="speed" min="100" max="500" value="250" />
+                </div>
+                <div class="input">
+                    <label for="bulbAmout">Amount of bulbs</label>
+                    <input type="number" id="bulbAmount" value="20" min="10" max="40" />
+                </div>
+            </div>
+            <div id="btns">
+                <button class="btn" style="height:50px; width:50px" id="start-btn">Start</button>
+                <button class="btn" style="height:50px; width:50px" id="stop-btn" disabled>Stop</button>
+            </div>
+
+            <div id="bulbs"></div>
+        </section>
+
+        <section id="result">
+            <div class="endgame">
+                <p></p>
+                <p id="gameover"></p>
+                <p id="won"></p>
+                <button type="button" id="close"> Close</button>
+            </div>
+        </section>
+
+        <h2>Instructions</h2>
+        <ol>
+            <li>Create a number of bulbs and store them in an array</li>
+            <li>Turn them all off by default</li>
+            <li>Select the first one to turn on</li>
+            <li>
+                Switch off/turn on bulb after time Interval
+            </li>
+            <li>
+                When end of the array, start again
+            </li>
+            <li>Add a button to stop the interval upon click</li>
+            <li>
+                Style the bulbs in a circle with JS Snippet
+            </li>
+            <li>
+                Bonus points:
+                <ol>
+                    <li>Adjustable time interval </li>
+                    <li>Adjustable number of Bulbs</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
