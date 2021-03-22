@@ -10,9 +10,9 @@ let active = 0;
 let sec = 1000;
 let counter = 0;
 let miss = 0;
-let arrowSound = new Audio("/audio/arrow.mp3.mp3");
-let backgroundSound = new Audio("/audio/backgroundSound.mp3");
-let endSound = new Audio("/audio/endSound.mp3");
+let arrowSound = new Audio("audio/arrow.mp3.mp3");
+let backgroundSound = new Audio("audio/backgroundSound.mp3");
+let endSound = new Audio("audio/endSound.mp3");
 
 /*arrow.Mousemove = function (mouseMovement) {
     let arrow = document.getElementById("arrow");
