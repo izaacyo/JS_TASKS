@@ -1,0 +1,56 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #293251;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5%;
+  padding-top: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  width: 10rem;
+  height: 1rem;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#send {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.temperature {
+  height: 200px;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.icon img {
+  min-width: 60px;
+  margin-bottom: 50px;
+}
+
+.description {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+p,
+#city {
+  font-size: 20px;
+}
